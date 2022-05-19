@@ -1,0 +1,41 @@
+body {
+    background-image:url(./niebo.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.cityname {
+    color: rgb(236, 233, 248);
+    background-color: rgb(13, 17, 51);
+    margin:0;
+    padding: 8px;
+    text-align: center;
+    
+}
+.coutry {
+    color: rgb(160, 166, 202);
+}
+.clouds {
+    color: rgb(160, 166,202);
+}
+.temperature {
+    color: rgb(160, 166, 202)
+}
+.temperatureMin {
+    color: rgb(160, 166, 202);
+}
+.temperatureMax {
+    color :rgb(160, 166, 202);
+}
+
+.card {
+    backdrop-filter: blur(0px) saturate(84%);
+    -webkit-backdrop-filter: blur(0px) saturate(84%);
+    background-color: rgba(7, 8, 26, 0.795);
+    border: 1px solid rgba(53, 96, 161, 0.3);   
+    width: 400px;
+    min-height: 450px;
+    margin: 25px;
+    border-radius: 10px;
+    
+}
